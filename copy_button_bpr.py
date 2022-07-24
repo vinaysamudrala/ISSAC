@@ -1,5 +1,8 @@
 import pyperclip
 import tkinter
+import os
+
+os.system('cmd /k "pip install pyperclip"')
 
 def a1f():
     pyperclip.copy("Bill_To_1: ")
