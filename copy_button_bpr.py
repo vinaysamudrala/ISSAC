@@ -77,15 +77,12 @@ def f4f():
 a1=tkinter.Button(text="Bill_To_1:")
 a1.config(height=1,width=20,command=a1f)
 a1.grid(row=0, column=0)
-
 a2=tkinter.Button(text="Bill_To_Vlaue_1:")
 a2.config(height=1,width=20,command=a2f)
 a2.grid(row=0, column=1)
-
 a3=tkinter.Button(text="Ship_To_1:")
 a3.config(height=1,width=20,command=a3f)
 a3.grid(row=0, column=2)
-
 a4=tkinter.Button(text="Ship_To_Value_1:")
 a4.config(height=1,width=20,command=a4f)
 a4.grid(row=0, column=3)
