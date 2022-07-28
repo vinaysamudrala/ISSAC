@@ -1,9 +1,5 @@
 
 import tkinter
-import pip
-
-#pip.main(["install", "--user", "pyperclip"])
-
 import pyperclip
 
 vinay=tkinter.Frame()
@@ -21,7 +17,7 @@ def a4f():
 def b1f():
     pyperclip.copy("Bill_To_Vertical_1: ")
 def b2f():
-    pyperclip.copy("Bill_To_Vertical_Value_1: ")
+    pyperclip.copy("Bill_to_Vertical_Value_1: ")
 def b3f():
     pyperclip.copy("Ship_To_Vertical_1: ")
 def b4f():
@@ -99,7 +95,7 @@ a4.grid(row=0, column=3)
 b1=tkinter.Button(text="Bill_To_Vertical_1:")
 b1.config(height=1,width=20,command=b1f, background='sky blue')
 b1.grid(row=1, column=0)
-b2=tkinter.Button(text="Bill_To_Vertical_Value_1:")
+b2=tkinter.Button(text="Bill_to_Vertical_Value_1:")
 b2.config(height=1,width=20,command=b2f, background='sky blue')
 b2.grid(row=1, column=1)
 b3=tkinter.Button(text="Ship_To_Vertical_1:")
